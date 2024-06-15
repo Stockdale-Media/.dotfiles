@@ -1,0 +1,51 @@
+import = [
+   "~/.config/alacritty/themes/dracula.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 10
+padding.y = 10
+dynamic_padding = true
+
+decorations = "Full"
+opacity = 0.9
+decorations_theme_variant = "Dark"
+
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[cursor]
+style = "Beam"
+
+[terminal]
+osc52 = "CopyPaste"
+
+[keyboard]
+bindings = [
+  { key = "C", mods = "Super|Shift", action = "Copy"},
+  { key = "V", mods = "Super|Shift", action = "Paste"},
+  { key = "Q", mods = "Super|Shift", action = "Quit" },
+  { key = "+", mods = "Super|Shift", action = "IncreaseFontSize"}, { key = "-", mods = "Super|Shift", action = "DecreaseFontSize"},
+  { key = "S", mods = "Super|Shift", action = "Minimize"},
+
+]
